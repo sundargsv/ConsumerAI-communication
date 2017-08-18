@@ -1,0 +1,58 @@
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+#######################################################
+# Find the below custom git ignore (DTS2.0) POC project
+#######################################################
+
+# DTSsamples
+/DTSsamples
+
+# node_modules
+*node_modules
+
+# assets
+/assets (get it in the first commit)
+
+# bower_components
+*/bower_components/*
+
+*index.html
+*gulpfile.js
+*bower.json
+*package.json
+*.js~
+*.html~
+*.css~
+*.jsp~
+*.java~
+*.class
+*/target/*
+*target
+/bin
